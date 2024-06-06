@@ -9,13 +9,13 @@ namespace Calculator
             Console.Clear(); //ele limpa a tela
             Console.WriteLine("PRIMEIRO VALOR: ");
             float v1 = float.Parse(Console.ReadLine());
+            Console.WriteLine("SEGUNDO VALOR:");
+            float v2 = float.Parse(Console.ReadLine());    
+            float resultado = v1 + v2;    
+            Console.WriteLine("");   
+            Console.WriteLine("O resultado da soma é: " + resultado);
+            Console.WriteLine($"O resultado da soma é : {resultado}");
 
-            Console.WriteLine("SEU NOME: ");
-            string nome = Console.ReadLine();
-            
-
-            Console.WriteLine("ola " + nome + " seu saldo é de " + v1);
-            //testando o git
         }
     }
  }
