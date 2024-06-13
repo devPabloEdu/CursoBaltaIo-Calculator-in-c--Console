@@ -6,6 +6,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine("ESCOLHA UMA DE NOSSAS OPERAÇÕES :");
             Console.WriteLine("----------------------");
             Console.WriteLine("soma - subtracao - divisao - multiplicacao");
@@ -30,7 +31,7 @@ namespace Calculator
                 break;
                 case "multiplicacao" : Multiplicacao();
                 break;
-                default : return "Prezado, usuario, insira uma operação válida!!";
+                default : return "Prezado usuario, insira uma operação válida!!";
             }
             return "operação concluida!";
         }
