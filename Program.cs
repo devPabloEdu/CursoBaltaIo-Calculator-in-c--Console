@@ -9,7 +9,7 @@ namespace Calculator
             Console.Clear();
             Console.WriteLine("ESCOLHA UMA DE NOSSAS OPERAÇÕES :");
             Console.WriteLine("----------------------");
-            Console.WriteLine("soma - subtracao - divisao - multiplicacao");
+            Console.WriteLine("soma - subtracao - divisao - multiplicacao - sair");
             Console.WriteLine("----------------------");
 
             string operacaoSelecionada = Console.ReadLine();
@@ -30,6 +30,8 @@ namespace Calculator
                 case "divisao" : Divisao();
                 break;
                 case "multiplicacao" : Multiplicacao();
+                break;
+                case "sair" : System.Environment.Exit(0);
                 break;
                 default : return "Prezado usuario, insira uma operação válida!!";
             }
