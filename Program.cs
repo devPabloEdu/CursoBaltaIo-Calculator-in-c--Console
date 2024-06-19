@@ -89,7 +89,7 @@ namespace Calculator
 
             float resultadoM = mValor1 * mValor2;
             Console.WriteLine(""); 
-            Console.WriteLine($"O resultado da subtração é : {resultadoM}");
+            Console.WriteLine($"O resultado da subtração é  : {resultadoM}");
         }
     }   
  }
